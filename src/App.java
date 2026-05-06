@@ -19,6 +19,12 @@ public class App {
             for(Person person : persona){
                 System.out.println(person);
             }
+            PersonController bsortName = new PersonController();
+            bsortName.sortPersonByName(persona);
+            System.out.println("Ordenamiento de nombres");
+            for(Person person : persona){
+                System.out.println(person);
+            }
         }
     }
 
